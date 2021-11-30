@@ -159,8 +159,6 @@ export default {
         }
       ];
 
-      console.log("ffefe");
-
       const style = {
         background: `url("${DotsLoaderIcon}") no-repeat center`
       };

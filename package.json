@@ -14,9 +14,7 @@
     "core-js": "^3.6.5",
     "lodash": "^4.17.21",
     "v-tooltip": "^3.0.0-beta.1",
-    "vue": "^2.6.11",
-    "vue-check-view": "^0.3.0",
-    "vue-virtual-scroller": "^1.0.10"
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
