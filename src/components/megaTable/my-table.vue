@@ -87,10 +87,6 @@ export default {
           }             
         }
     },   
-    toggleSort(prop) {
-      this.sortProp = prop;
-      this.sortDirection = (this.sortDirection === 'desc' || !this.sortDirection) ? 'asc' : 'desc';
-    },
     changeSortProps(prop) {
       if (this.sortProps[prop] === "asc") {
         this.sortProps[prop] = "desc";

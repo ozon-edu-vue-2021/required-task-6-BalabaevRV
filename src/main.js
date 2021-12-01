@@ -9,18 +9,15 @@ import {
   faTimes
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import VTooltipPlugin from 'v-tooltip'
+import VTooltipPlugin from 'v-tooltip';
 import { Directive } from '@/directives/detect-viewport';
-import VueVirtualScroller from 'vue-virtual-scroller'
-
-import 'v-tooltip/dist/v-tooltip.css'
-import 'vue-virtual-scroller/dist/vue-virtual-scroller.css'
+import 'v-tooltip/dist/v-tooltip.css';
+import 'vue-virtual-scroller/dist/vue-virtual-scroller.css';
 
 
 library.add(faSortAmountUp, faSortAmountDown, faSort, faFilter, faTimes);
 
 Vue.use(VTooltipPlugin);
-Vue.use(VueVirtualScroller)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.directive('detect-viewport', Directive);
